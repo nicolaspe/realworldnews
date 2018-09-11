@@ -1,0 +1,25 @@
+{
+  "name": "realworldnews",
+  "version": "0.0.1",
+  "description": "Real World News, the only news that tell the TRUTH* and cares about the public.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolaspe/realworldnews.git"
+  },
+  "author": "Nicolas Escarpentier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolaspe/realworldnews/issues"
+  },
+  "homepage": "https://github.com/nicolaspe/realworldnews#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "html2canvas": "^1.0.0-alpha.12",
+    "newsapi": "^2.2.2",
+    "npm": "^6.1.0"
+  }
+}

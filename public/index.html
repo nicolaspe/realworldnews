@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Real World News</title>
+    <link rel="stylesheet" type="text/css" href="rwn.css">
+
+    <script src="lib/clmtrackr.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.min.js"></script>
+    <script src="faces_p5.js"></script>
+    <script src="news.js"></script>
+  </head>
+
+  <body>
+
+    <div class="header">
+      <h1>The Real World News</h1>
+      <p class="subtitle">Bringing the Truth to the People</p>
+    </div>
+
+    <div class="news-block">
+
+      <div class="news col col-25" id="bbc-news-block">
+        <div class="news-img-parent">
+          <img src="" class="news-img" id="bbc-news-img" alt="bbc-news news picture">
+          <img class="news-logo" src="./logos/bbc-news.png" alt="bbc-news logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="bbc-news-title">BBC News</a></h2>
+        <p id="bbc-news-desc"> </p>
+      </div>
+
+      <div class="news col col-25" id="bloomberg-block">
+        <div class="news-img-parent">
+          <img src="" class="news-img" id="bloomberg-img" alt="bloomberg news picture">
+          <img class="news-logo" src="./logos/bloomberg.png" alt="bloomberg logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="bloomberg-title">Bloomberg</a></h2>
+        <p id="bloomberg-desc"> </p>
+      </div>
+
+      <div class="news col col-25" id="cnn-block">
+        <div class="news-img-parent">
+          <img src="" class="news-img" id="cnn-img" alt="cnn news picture">
+          <img class="news-logo" src="./logos/cnn.png" alt="cnn logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="cnn-title">CNN</a></h2>
+        <p id="cnn-desc"> </p>
+      </div>
+
+      <div class="news col col-25" id="fox-news-block">
+        <div class="news-img-parent">
+          <img src="" class="news-img" id="fox-news-img" alt="fox-news news picture">
+          <img class="news-logo" src="./logos/fox-news.png" alt="fox-news logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="fox-news-title">Fox News</a></h2>
+        <p id="fox-news-desc"> </p>
+      </div>
+
+      <div class="news col col-25" id="the-hill-block">
+        <div class="news-img-parent">
+          <img src="" class="news-img" id="the-hill-img" alt="the-hill news picture">
+          <img class="news-logo" src="./logos/the-hill.png" alt="the-hill logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="the-hill-title">The Hill</a></h2>
+        <p id="the-hill-desc"> </p>
+      </div>
+
+      <div class="news col col-25">
+        <div class="news-img-parent" id="the-huffington-post-block">
+          <img src="" class="news-img" id="the-huffington-post-img" alt="the-huffington-post news picture">
+          <img class="news-logo" src="./logos/the-huffington-post.png" alt="the-huffington-post logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="the-huffington-post-title">The Huffington Post</a></h2>
+        <p id="the-huffington-post-desc"> </p>
+      </div>
+
+      <div class="news col col-25">
+        <div class="news-img-parent" id="the-new-york-times-block">
+          <img src="" class="news-img" id="the-new-york-times-img" alt="the-new-york-times news picture">
+          <img class="news-logo" src="./logos/the-new-york-times.png" alt="the-new-york-times logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="the-new-york-times-title">The New York Times</a></h2>
+        <p id="the-new-york-times-desc"> </p>
+      </div>
+
+      <div class="news col col-25">
+        <div class="news-img-parent" id="the-washington-post-block">
+          <img src="" class="news-img" id="the-washington-post-img" alt="the-washington-post news picture">
+          <img class="news-logo" src="./logos/the-washington-post.png" alt="the-washington-post logo" height="70px" width="70px">
+        </div>
+        <h2 class="news-title"><a href="#" id="the-washington-post-title">The Washington Post</a></h2>
+        <p id="the-washington-post-desc"> </p>
+      </div>
+
+    </div>
+
+
+    <div class="footer">
+      <p>The news and the truth brought to you by <a href="http://nicolaspe.com">nicolás escarpentier</a></p>
+      <p>Project powered by <a href="https://newsapi.org/">News API</a></p>
+    </div>
+
+    <!-- <div class="ext-site" id="ext-site-cont">
+      <div class="ext-site-frame">
+        <iframe src="" id="ext-site-view"></iframe>
+        <div style="display: block; margin-top: 20px;">
+          <button type="button" name="close-ext">Close</button>
+        </div>
+      </div>
+    </div> -->
+
+  </body>
+</html>
